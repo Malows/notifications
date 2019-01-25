@@ -1,0 +1,48 @@
+{
+  "name": "vue-notifications",
+  "version": "0.0.1",
+  "description": "An opinionated vue notifications plugin",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint --ext .js src",
+    "lint:fix": "eslint --ext .js src --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Malows/notifications.git"
+  },
+  "keywords": [
+    "vue",
+    "notifications"
+  ],
+  "author": "Malows",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/Malows/notifications/issues"
+  },
+  "homepage": "https://github.com/Malows/notifications#readme",
+  "dependencies": {
+    "nanoid": "^2.0.1",
+    "vue": "^2.0.0"
+  },
+  "devDependencies": {
+    "bulma": "^0.7.2",
+    "css-loader": "^2.1.0",
+    "eslint": "^5.12.1",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.15.0",
+    "eslint-plugin-node": "^8.0.1",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "mini-css-extract-plugin": "^0.5.0",
+    "node-sass": "^4.11.0",
+    "optimize-css-assets-webpack-plugin": "^5.0.1",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "terser-webpack-plugin": "^1.2.1",
+    "webpack": "^4.29.0",
+    "webpack-cli": "^3.2.1"
+  }
+}

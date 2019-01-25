@@ -1,0 +1,21 @@
+@charset "utf-8";
+
+@import "../node_modules/bulma/sass/utilities/_all.sass";
+// @import "../node_modules/bulma/sass/base/_all.sass";
+@import "../node_modules/bulma/sass/elements/notification.sass";
+
+.notifications__list {
+  bottom: 0;
+  position: absolute;
+  right: 0;
+  width: 20vw;
+
+  @media only screen and (max-width: 1023px) {
+    width: 40vw;
+  }
+
+  @media only screen and (max-width: 768px) {
+    width: 100%;
+  }
+}
+
