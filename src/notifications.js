@@ -30,7 +30,9 @@ const Notifications = {
     },
 
     remove (notif) {
-      if (notif.__timeout) { clearTimeout(notif.__timeout) }
+      if (notif.__timeout) {
+        clearTimeout(notif.__timeout)
+      }
 
       const index = this.notifs.indexOf(notif)
 
