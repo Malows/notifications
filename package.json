@@ -1,6 +1,6 @@
 {
   "name": "@malows/vue-notifications",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "An opinionated vue notifications plugin",
   "main": "dist/index.js",
   "module": "src/index.js",
