@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import Notifications from './notifications'
-import './style.scss'
+// import './style.scss'
 
 function init () {
   const node = document.createElement('div')
